@@ -15,5 +15,20 @@
   "bugs": {
     "url": "https://github.com/yvesgurcan/wizard-picker/issues"
   },
-  "homepage": "https://github.com/yvesgurcan/wizard-picker#readme"
+  "homepage": "https://github.com/yvesgurcan/wizard-picker#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
 }
