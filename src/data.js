@@ -25,4 +25,7 @@ export default [
     {
         name: 'Voldemort'
     },
+    {
+        name: 'Ganondorf'
+    }
 ]
