@@ -7,6 +7,8 @@ function pickColor() {
     return Math.floor(Math.random() * Math.floor(255))
 }
 
+const WIZARD_DATA_FILE_URI = 'https://github.com/yvesgurcan/wizard-picker/blob/master/src/data.js';
+
 export default () => {
     const [selectedWizard, selectWizard] = useState({});
 
@@ -37,6 +39,7 @@ export default () => {
                     <WizardPicker onClick={pickWizard}>Pick a wizard!</WizardPicker>
                     <SelectedWizard>{selectedWizard.name}</SelectedWizard>
                 </WizardPickerContainer>
+                <AddWizard href={WIZARD_DATA_FILE_URI} target="_blank" rel="noopener noreferrer">Click here to add a wizard via GitHub.</AddWizard>
                 {unusedWizards.map(wizard => <WizardItem key={wizard.name}>{wizard.name}</WizardItem>)}
         {usedWizards.map(wizard => <WizardItem key={wizard.name} used={true}>{wizard.name} <WizardUsed>({wizard.used})</WizardUsed></WizardItem>)}
             </ViewContainer>
@@ -91,6 +94,12 @@ const WizardPicker = styled.button`
 const SelectedWizard = styled.div`
     color: ${() => `rgb(${pickColor()}, ${pickColor()}, ${pickColor()})`};
     transition: all 1s;
+`;
+
+const AddWizard = styled.a`
+    font-size: 30px;
+    color: orange;
+    text-decoration: none;
 `;
 
 const WizardItem = styled.div`
