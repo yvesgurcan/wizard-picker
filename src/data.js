@@ -27,5 +27,17 @@ export default [
     },
     {
         name: 'Ganondorf'
+    },
+    {
+        name: 'Mad-Eye Moody'
+    },
+    {
+        name: 'Wicked Witch of the West'
+    },
+    {
+        name: 'Harry Potter'
+    },
+    {
+        name: 'Sauron'
     }
 ]
