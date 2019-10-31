@@ -762,7 +762,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ([{\n  name: 'Gandalf The Grey',\n  used: '2019/10/03'\n}, {\n  name: 'Saruman The White',\n  used: '2019/10/17'\n}, {\n  name: 'The Enchanter Merlin'\n}, {\n  name: 'Jafar'\n}, {\n  name: 'Yoda'\n}, {\n  name: 'Obi Wan Kenobi'\n}, {\n  name: 'Albus Dumbledor'\n}, {\n  name: 'Voldemort'\n}, {\n  name: 'Ganondorf'\n}, {\n  name: 'Mad-Eye Moody'\n}, {\n  name: 'Wicked Witch of the West'\n}, {\n  name: 'Harry Potter'\n}, {\n  name: 'Sauron'\n}]);\n\n//# sourceURL=webpack:///./src/data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ([{\n  name: 'Gandalf The Grey',\n  used: '2019/10/03'\n}, {\n  name: 'Saruman The White',\n  used: '2019/10/17'\n}, {\n  name: 'The Enchanter Merlin'\n}, {\n  name: 'Jafar'\n}, {\n  name: 'Yoda'\n}, {\n  name: 'Obi Wan Kenobi'\n}, {\n  name: 'Albus Dumbledor'\n}, {\n  name: 'Voldemort'\n}, {\n  name: 'Ganondorf'\n}, {\n  name: 'Mad-Eye Moody'\n}, {\n  name: 'Wicked Witch of the West',\n  used: '2019/10/31'\n}, {\n  name: 'Harry Potter'\n}, {\n  name: 'Sauron'\n}]);\n\n//# sourceURL=webpack:///./src/data.js?");
 
 /***/ }),
 

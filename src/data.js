@@ -32,7 +32,8 @@ export default [
         name: 'Mad-Eye Moody'
     },
     {
-        name: 'Wicked Witch of the West'
+        name: 'Wicked Witch of the West',
+        used: '2019/10/31'
     },
     {
         name: 'Harry Potter'
