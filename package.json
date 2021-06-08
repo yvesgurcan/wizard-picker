@@ -29,7 +29,7 @@
     "react-dom": "^16.11.0",
     "styled-components": "^5.0.1",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.9",
+    "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.9.0"
   }
 }
